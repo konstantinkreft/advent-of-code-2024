@@ -10,8 +10,8 @@ export function parse(input: string) {
       const [first, second] = [Number(firstString), Number(secondString)];
 
       if (!isNaN(first) && !isNaN(second)) {
-        acc.firstColumn.push(Number(first));
-        acc.secondColumn.push(Number(second));
+        acc.firstColumn.push(first);
+        acc.secondColumn.push(second);
       }
 
       return acc;
